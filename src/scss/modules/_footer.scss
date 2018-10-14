@@ -1,0 +1,20 @@
+// Add to footer styling
+footer {
+    font-size: 15px;
+    color: #8C969E;
+    position: fixed;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #E8EAEB;
+    bottom: 0;
+    width: 100%;
+
+    a {
+        color: #8C969E;
+        margin-right: 12px;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+}

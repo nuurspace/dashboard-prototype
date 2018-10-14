@@ -1,0 +1,52 @@
+.account-container {
+    border: 1px solid #fafafa;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    padding-left: 42px;
+    padding-right: 42px;
+    
+    .nav {
+        // padding-top: 10px;
+        margin-left: -42px;
+        margin-right: -42px;
+        border-bottom: 1px solid #E8EAEB
+    }
+    
+    .nav-link {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        border-radius: 0;
+        color: #5E6C78;
+        font-weight: 400;
+    }
+    
+    .nav-item .active {
+        color: $primary !important;
+        background-color: transparent!important;
+        border-bottom: 2px solid $primary;
+        // background: #F7F9FA;
+    }
+    
+    .nav-item:hover {
+        // background: #F7F9FA;
+    }
+    
+    .account-item {
+        border-top: 1px solid #E8EAEB;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    
+    .account-item h5 {
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+    
+    .account-item p {
+        margin-bottom: 0;
+        color: #5E6C78;
+    }
+    
+}

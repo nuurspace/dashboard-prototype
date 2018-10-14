@@ -1,0 +1,35 @@
+{
+  "name": "bootstrap_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuurspace/bootstrap_template.git"
+  },
+  "author": "Mustafa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuurspace/bootstrap_template/issues"
+  },
+  "homepage": "https://github.com/nuurspace/bootstrap_template#readme",
+  "bundleDependencies": [],
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "bootstrap": "^4.1.1",
+    "chart.js": "^2.7.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "velocity-animate": "^2.0.5"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-pro": "^5.3.1",
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1",
+    "gulp-sass": "^4.0.1"
+  }
+}

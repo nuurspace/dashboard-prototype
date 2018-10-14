@@ -1,0 +1,58 @@
+    .hidden {
+        visibility: hidden;
+    }
+
+    .visible {
+        visibility: visible;
+    }
+    
+    .height-zero {
+        height: 0;
+    }
+    
+    .height-full {
+        height: 56px;
+    }
+    
+    .green {
+        background-color: $success;
+        color: white !important;
+    }
+    
+
+.tracker {
+
+    // .hidden {
+    //     visibility: hidden;
+    // }
+
+    // .visible {
+    //     visibility: visible;
+    // }
+    
+    transition: all 0.3s;
+
+
+    .tracker-text h5 {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .height-zero {
+        height: 0;
+    }
+
+    .tracker-active {
+        border: 1px solid $primary;
+        box-shadow: 0px 4px 6px rgba(0,0,0,0.07);
+    }
+
+    .fastest {
+        -webkit-animation-duration: 0.3s;
+        -moz-animation-duration: 0.3s;
+        -ms-animation-duration: 0.3s;
+        -o-animation-duration: 0.3s;
+        animation-duration: 0.3s;
+    }
+}

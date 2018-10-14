@@ -1,0 +1,54 @@
+// Add styling below to table styles
+.table {
+    .fa-plus {
+        color: $success;
+        margin-right: 6px;
+    }
+
+    .fa-minus {
+        color: $danger;
+        margin-right: 6px;
+    }
+
+    .fa-caret-square-down {
+        color: $success;
+        margin-right: 6px;
+    }
+
+    .fa-caret-square-up {
+        color: $danger;
+        margin-right: 6px;
+    }
+
+    tbody tr:hover {
+        background-color: #F7F9FA;
+    }
+
+    .btn {
+        font-size: 15px;
+        font-weight: 600;
+        min-width: 120px;
+    }
+}
+
+td, th {
+    border: none !important;
+    font-weight: 600;
+    padding-top: 20px !important;
+    padding-bottom: 10px !important;
+}
+
+thead tr th {
+    color: #8C969E;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+tr:nth-child(odd){
+    // background: rgba(0,0,0,0.02);
+}
+
+.fa-arrow-right {
+    color: rgba(0,0,0,0.24);
+}
